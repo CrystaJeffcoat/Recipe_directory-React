@@ -1,5 +1,5 @@
 # User_directory-React
-Employer directory made with React
+Employer directory made with [Create React App](https://github.com/facebook/create-react-app)
 >[link to website](www.link.com)
 
 ## Table of Contents
@@ -18,7 +18,8 @@ Employer directory made with React
 
 
 ## Setup
-
+In the project directory, you can run:
+> yarn start
 
 ## Features
 
