@@ -1,6 +1,6 @@
 # User_directory-React
 Employer directory made with [Create React App](https://github.com/facebook/create-react-app)
->[link to website](www.link.com)
+>[Link to website](www.link.com)
 
 ## Table of Contents
 * [Description](#Description)
