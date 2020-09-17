@@ -1,0 +1,284 @@
+[
+  {
+    "id": 1,
+    "name": "Let's Focus",
+    "oils": [
+      {
+        "name": "wild orange",
+        "amount": "2 drops"
+      },
+      {
+        "name": "peppermint",
+        "amount": "2 drops"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Fresh and Clean",
+    "oils": [
+      {
+        "name": "lavendar",
+        "amount": "2 drops"
+      },
+      {
+        "name": "lemon",
+        "amount": "2 drops"
+      },
+      {
+        "name": "rosemary",
+        "amount": "2 drops"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Odor Eliminator",
+    "oils": [
+      {
+        "name": "lemon",
+        "amount": "2 drops"
+      },
+      {
+        "name": "melaleuca",
+        "amount": "1 drop"
+      },
+      {
+        "name": "cilantro",
+        "amount": "1 drop"
+      },
+      {
+        "name": "lime",
+        "amount": "1 drop"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Seasonal Support",
+    "oils": [
+      {
+        "name": "lavender",
+        "amount": "2 drops"
+      },
+      {
+        "name": "lemon",
+        "amount": "2 drops"
+      },
+      {
+        "name": "peppermint",
+        "amount": "2 drops"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Citrus Explosion",
+    "oils": [
+      {
+        "name": "lemon",
+        "amount": "2 drop"
+      },
+      {
+        "name": "wild orange",
+        "amount": "2 drops"
+      },
+      {
+        "name": "lime",
+        "amount": "1 drop"
+      },
+      {
+        "name": "grapefruit",
+        "amount": "1 drop"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Deep Breath",
+    "oils": [
+      {
+        "name": "bergamot",
+        "amount": "1 drop"
+      },
+      {
+        "name": "patchouli",
+        "amount": "1 drop"
+      },
+      {
+        "name": "ylang ylang",
+        "amount": "1 drop"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Respiratory Support",
+    "oils": [
+      {
+        "name": "lemon",
+        "amount": "1 drop"
+      },
+      {
+        "name": "eucalyptus",
+        "amount": "1 drop"
+      },
+      {
+        "name": "peppermint",
+        "amount": "2 drops"
+      },
+      {
+        "name": "rosemary",
+        "amount": "1 drop"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Flower Garden",
+    "oils": [
+      {
+        "name": "geranium",
+        "amount": "1 drop"
+      },
+      {
+        "name": "lavendar",
+        "amount": "2 drops"
+      },
+      {
+        "name": "roman chamomile",
+        "amount": "2 drops"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Man-Cave",
+    "oils": [
+      {
+        "name": "white first",
+        "amount": "2 drops"
+      },
+      {
+        "name": "cypress",
+        "amount": "2 drops"
+      },
+      {
+        "name": "wintergreen",
+        "amount": "2 drops"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Bug Repellent",
+    "oils": [
+      {
+        "name": "lemongrass",
+        "amount": "1 drop"
+      },
+      {
+        "name": "thyme",
+        "amount": "1 drop"
+      },
+      {
+        "name": "eucalyptus",
+        "amount": "1 drop"
+      },
+      {
+        "name": "basil",
+        "amount": "1 drop"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Spiced Chai",
+    "oils": [
+      {
+        "name": "cardamom",
+        "amount": "3 drops"
+      },
+      {
+        "name": "cassia",
+        "amount": "2 drops"
+      },
+      {
+        "name": "clove",
+        "amount": "2 drops"
+      },
+      {
+        "name": "ginger",
+        "amount": "1 drop"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Woodsy Essentia",
+    "oils": [
+      {
+        "name": "frankincense",
+        "amount": "3 drops"
+      },
+      {
+        "name": "white fir",
+        "amount": "2 drops"
+      },
+      {
+        "name": "cedarwood",
+        "amount": "1 drop"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Goodbye Stress",
+    "oils": [
+      {
+        "name": "frankincense", 
+        "amount": "2 drops"
+      },
+      {
+        "name": "bergamot",
+        "amount": "2 drops"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "G’Night",
+    "oils": [
+      {
+        "name": "lavendar",
+        "amount": "2 drops"
+      },
+      {
+        "name": "chamomile",
+        "amount": "2 drops"
+      },
+      {
+        "name": "vetiver",
+        "amount": "2 drops"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Energize",
+    "oils": [
+      {
+        "name": "wild orange",
+        "amount": "2 drops"
+      },
+      {
+        "name": "frankincense",
+        "amount": "2 drops"
+      },
+      {
+        "name": "cinnamon",
+        "amount": "2 drops"
+      }
+    ]
+  }
+]
