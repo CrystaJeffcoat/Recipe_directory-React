@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Let's Focus",
+    "favorite": false,
     "oils": [
       {
         "name": "wild orange",
@@ -16,6 +17,7 @@
   {
     "id": 2,
     "name": "Fresh and Clean",
+    "favorite": false,
     "oils": [
       {
         "name": "lavendar",
@@ -34,6 +36,7 @@
   {
     "id": 3,
     "name": "Odor Eliminator",
+    "favorite": false,
     "oils": [
       {
         "name": "lemon",
@@ -56,6 +59,7 @@
   {
     "id": 4,
     "name": "Seasonal Support",
+    "favorite": false,
     "oils": [
       {
         "name": "lavender",
@@ -74,6 +78,7 @@
   {
     "id": 5,
     "name": "Citrus Explosion",
+    "favorite": false,
     "oils": [
       {
         "name": "lemon",
@@ -96,6 +101,7 @@
   {
     "id": 6,
     "name": "Deep Breath",
+    "favorite": false,
     "oils": [
       {
         "name": "bergamot",
@@ -114,6 +120,7 @@
   {
     "id": 7,
     "name": "Respiratory Support",
+    "favorite": false,
     "oils": [
       {
         "name": "lemon",
@@ -136,6 +143,7 @@
   {
     "id": 8,
     "name": "Flower Garden",
+    "favorite": false,
     "oils": [
       {
         "name": "geranium",
@@ -154,6 +162,7 @@
   {
     "id": 9,
     "name": "Man-Cave",
+    "favorite": false,
     "oils": [
       {
         "name": "white first",
@@ -172,6 +181,7 @@
   {
     "id": 10,
     "name": "Bug Repellent",
+    "favorite": false,
     "oils": [
       {
         "name": "lemongrass",
@@ -194,6 +204,7 @@
   {
     "id": 11,
     "name": "Spiced Chai",
+    "favorite": false,
     "oils": [
       {
         "name": "cardamom",
@@ -216,6 +227,7 @@
   {
     "id": 12,
     "name": "Woodsy Essentia",
+    "favorite": false,
     "oils": [
       {
         "name": "frankincense",
@@ -234,6 +246,7 @@
   {
     "id": 13,
     "name": "Goodbye Stress",
+    "favorite": false,
     "oils": [
       {
         "name": "frankincense", 
@@ -248,6 +261,7 @@
   {
     "id": 14,
     "name": "G’Night",
+    "favorite": false,
     "oils": [
       {
         "name": "lavendar",
@@ -266,6 +280,7 @@
   {
     "id": 15,
     "name": "Energize",
+    "favorite": false,
     "oils": [
       {
         "name": "wild orange",
