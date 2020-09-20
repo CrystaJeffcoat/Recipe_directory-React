@@ -8,13 +8,15 @@ import Col from "../components/Col";
 import Card from '../components/Card';
 import CardBtn from "../components/CardBtn";
 import CardText from '../components/CardText';
+import SearchForm from '../components/SearchForm';
 import Footer from '../components/Footer';
 import oils from '../oils.json';
 
 class Home extends Component {
 
   state = {
-    oils
+    oils: oils,
+    search: ''
   }
 
   handleNavBtn = data => {
@@ -29,6 +31,18 @@ class Home extends Component {
     }
   }
 
+  handleInputChange = event => {
+    this.setState({search: event.target.value});
+  }
+
+  handleFormSubmit = event => {
+    event.preventDefault();
+    let searchInput = oils.filter(oils => (oils.name === this.state.search))
+    console.log(searchInput)
+    this.setState({oils: searchInput})
+    
+  }
+
   handleBtnClick = item => {
     item.favorite = true
     console.log(item)
@@ -36,7 +50,7 @@ class Home extends Component {
   };
 
   render() {
-
+    console.log(oils)
     return (
       <div>
         <Navbar onClick={(event) => this.handleNavBtn(event)}/>
@@ -44,6 +58,11 @@ class Home extends Component {
           <Hero backgroundImage="https://completehomespa.com/wp-content/uploads/2020/04/what-is-an-aromatherapy-diffuser.jpg">
             <h1>15 Essential Oil</h1>
             <h2>Diffuser Recipes</h2>
+            <SearchForm 
+              handleFormSubmit={this.handleFormSubmit}
+              handleInputChange={this.handleInputChange}
+              recipes={oils}
+            />
           </Hero>
           <Container style={{ marginTop: 30 }}>
             <Row>
