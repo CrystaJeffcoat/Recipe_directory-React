@@ -1,45 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-function Navbar() {
+function Navbar(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        Essential Oils
-      </Link>
+      <div className="navbar-brand">
+        Essential Oil Recipes
+      </div>
       <div>
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link
-              to="/"
-              className={
-                window.location.pathname === "/"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/favorites"
-              className={window.location.pathname === "/favorites" ? "nav-link active" : "nav-link"}
-            >
-              Favorites
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/search"
-              className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
-            >
-              Search
-            </Link>
-          </li>
-        </ul>
+        <div className = "navbar-nav">
+          <div className='nav-item'>
+            <span onClick={props.onClick} value = 'favorites' className='nav-link'>Favorites</span>
+          </div>
+          <div className = "nav-item">
+            <span onClick={props.onClick} value = 'all-recipes' className='nav-link'>All Recipes</span>
+          </div>
+        </div>
       </div>
     </nav>
   );
