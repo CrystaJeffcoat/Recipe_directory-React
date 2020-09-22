@@ -74,9 +74,9 @@ class Home extends Component {
           <Col size='12' style={{ textAlign: 'center', marginTop: 30, color: 'white'}}>
             <h2>{this.state.view}</h2>
           </Col>
-          <Container style={{ marginTop: 30 }}>
-            <Row>
-              <Col size="md-6 s-12 lg-4">
+          <Container fluid={true} style={{ marginTop: 30 }}>
+            <Row fluid={true}>
+              <Col size="s-12">
                 {this.state.oils.map(item => (
                   <Card title={item.name} key={item.id}>
                     <CardText
