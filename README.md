@@ -22,7 +22,7 @@ Made with React. This single-page application allows you to view 15 recipes, add
 * view favorite recipes
 
 ## [Image]
-![deployed site](public/favorites)
+![deployed site](public/favorites.png)
 
 ### Status
 _In Progress_
