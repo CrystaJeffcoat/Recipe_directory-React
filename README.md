@@ -1,33 +1,31 @@
-# User_directory-React
-Employer directory made with [Create React App](https://github.com/facebook/create-react-app)
+# Essential Oil Recipes
+Essential oil recipe directory made with [Create React App](https://github.com/facebook/create-react-app)
 >[Link to website](www.link.com)
 
 ## Table of Contents
 * [Description](#Description)
 * [General Info](#General-Info)
-* [Setup](#Setup)
 * [Features](#Features)
-* [Demo Gif](#Demo-Gif)
+* [View Page](#Image)
 * [Status](#Status)
 * [Developer Notes](#Developer-Notes)
 
 ## Description 
-
+Given a list of recipes, you will be able to 'favorite' a recipe or search one by name. You can also access all of your favorite recipes.
 
 ## General Info 
-
-
-## Setup
-In the project directory, you can run:
-> yarn start
+Made with React. This single-page application allows you to view 15 recipes, add or remove them to your favorites list and find a recipe by name.
 
 ## Features
+* search bar
+* add to favorites button
+* view favorite recipes
 
-
-## [Demo Gif](https://drive.google.com/file/d/1DTbWihkMHQ3jdLOgFwuWsx8Jj0PyaVlx/view)
-![employee gif](assets/demo.gif)
+## [Image]
+![deployed site](public/favorites)
 
 ### Status
 _In Progress_
 
 ### Developer Notes
+- create additional rows while mapping through recipe cards.
