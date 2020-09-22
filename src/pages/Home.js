@@ -44,8 +44,14 @@ class Home extends Component {
   }
 
   handleBtnClick = item => {
-    item.favorite = true
-    console.log(item)
+    if(item.favorite === true) {
+      console.log(item.favorite)
+      item.favorite = false
+    }
+    else {
+      item.favorite = true
+    }
+    
     this.setState(this.state.oils)
   };
 
