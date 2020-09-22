@@ -22,7 +22,8 @@ Made with React. This single-page application allows you to view 15 recipes, add
 * view favorite recipes
 
 ## [Image]
-![deployed site](public/favorites.png)
+![deployed site](public/favorites.png){width=25%}(public/allrecipes.png){width=25%}
+
 
 ### Status
 _In Progress_
