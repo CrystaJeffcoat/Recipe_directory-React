@@ -16,7 +16,8 @@ class Home extends Component {
 
   state = {
     oils: oils,
-    search: ''
+    search: '',
+    view: 'All Recipes'
   }
 
   handleNavBtn = data => {
@@ -24,10 +25,10 @@ class Home extends Component {
     if(value === 'favorites') {
       let favFilter = this.state.oils.filter(oils => (oils.favorite !== false))
       console.log(favFilter)
-      this.setState({oils: favFilter})
+      this.setState({oils: favFilter, view: 'Favorites'})
     }
     else {
-      this.setState({oils: oils})
+      this.setState({oils: oils, view: 'All Recipes'})
     }
   }
 
@@ -70,6 +71,9 @@ class Home extends Component {
               recipes={oils}
             />
           </Hero>
+          <Col size='12' style={{ textAlign: 'center', marginTop: 30, color: 'white'}}>
+            <h2>{this.state.view}</h2>
+          </Col>
           <Container style={{ marginTop: 30 }}>
             <Row>
               <Col size="md-6 s-12 lg-4">
