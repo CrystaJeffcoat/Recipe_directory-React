@@ -1,6 +1,6 @@
 # Essential Oil Recipes
 Essential oil recipe directory made with [Create React App](https://github.com/facebook/create-react-app)
->[Link to website](www.link.com)
+>[Link to website](https://limitless-journey-87355.herokuapp.com)
 
 ## Table of Contents
 * [Description](#Description)
